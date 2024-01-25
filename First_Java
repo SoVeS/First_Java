@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args)
+    {
+       Scanner in = new Scanner(System.in);
+
+       System.out.print("Запишите свое ФИО");
+       String Fio = in.nextLine();
+
+       System.out.print("Запишите свой возраст");
+       int age = in.nextInt();
+
+       System.out.print("Запишите свой Рост");
+       int height = in.nextInt();
+
+       System.out.print("Бюджет или Внебюджет");
+       String plat = in.next();
+
+       System.out.print("Мужчина/Женщина/Программист");
+       String pol = in.next();
+
+       System.out.printf("фИО студента: %s \n",Fio);
+       System.out.printf("Возраст студента: %d \n",age);
+       System.out.printf("Рост студента: %d \n",height);
+       System.out.println(plat);
+       System.out.print(pol);
+       in.close();
+    }
+}
