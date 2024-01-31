@@ -12,7 +12,7 @@ public class Main
        int age = in.nextInt();
 
        System.out.print("Запишите свой Рост");
-       int height = in.nextInt();
+       double height = in.nextDouble();
 
        System.out.print("Бюджет или Внебюджет");
        String plat = in.next();
@@ -22,7 +22,7 @@ public class Main
 
        System.out.printf("фИО студента: %s \n",Fio);
        System.out.printf("Возраст студента: %d \n",age);
-       System.out.printf("Рост студента: %d \n",height);
+       System.out.printf("Рост студента: %f \n",height);
        System.out.println(plat);
        System.out.print(pol);
        in.close();
